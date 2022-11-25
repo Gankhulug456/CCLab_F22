@@ -6,5 +6,8 @@ function setup() {
 
 function draw() {
   //
+  
   circle(100,100,50)
+  rectangle(100,100,100,50)
+
 }
