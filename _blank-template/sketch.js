@@ -9,5 +9,6 @@ function draw() {
   
   circle(100,100,50)
   rectangle(100,100,50,50)
+  circle(80,100,60)
 
 }
