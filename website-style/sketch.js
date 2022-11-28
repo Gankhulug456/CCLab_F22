@@ -1,6 +1,5 @@
 let angle = 250;
-let angle2 = 250
-;
+let angle2 = 250;
 let size = 460
 let angleR = 0;
 let angleG = 0;
@@ -15,17 +14,12 @@ function setup() {
 }
 
 function draw() {
-  //
-  
-   // beginGif();    // start recording for the GIF
-  
-  //Color speed
   angleR += 0.3;
   angleG += 0.1;
   angleB += 0.2;
   angleA += 0.125;
 
-  //Altered color speed
+
   if(size < 0 ) {
   angleR += 0.1;
   angleG += 0.2;
