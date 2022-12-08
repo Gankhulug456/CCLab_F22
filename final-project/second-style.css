@@ -9,13 +9,10 @@ html, body {
   } 
   
   h1{
-    font-size: 30px;
+    font-size: 90px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    position: absolute;
-    left: 600px;
-    right: 150px;
-    top: 10px;  
+    text-align: center; 
   }
 
   p{
@@ -23,7 +20,7 @@ html, body {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 200px;
 
   }
   h3{
@@ -47,7 +44,7 @@ html, body {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    margin-right: 350px;
+    margin-right: 350px; 
     text-align: right;
     margin-top: -41px;  
   }
