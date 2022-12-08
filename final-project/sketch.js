@@ -18,8 +18,13 @@ function draw() {
     for (let x = 0; x < width; x += rectSize) {
       // noStroke()
       fill(0, 255, 132)
+      noStroke()
       rect(x, y, width, height);
     }
+    stroke(1)
+    line(0,220,880,220)
+    line(0,440,880,440)
+    line(880,220,880,440)
     ball.display();
     ball.update();
     
