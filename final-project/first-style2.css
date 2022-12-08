@@ -1,0 +1,43 @@
+html, body {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgb(200, 255, 0) 0%, rgb(255, 208, 0) 35%, rgb(255, 115, 0) 100%);
+  margin: 0;
+  padding: 0;
+}
+.canvas {
+  display: block;
+} 
+
+h1{
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  position: absolute;
+  left: 600px;
+  right: 100px;
+  top: 1px;  
+}
+
+#canvasContainer {
+ position: absolute;
+ left: 130px;
+ right: 100px;
+ top: 100px;
+ bottom: 10px;
+} 
+p{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin-left: 70px;
+  margin-right: 100px;
+  margin-top: 40px; 
+}
+h2{
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin-left: 20px;
+  margin-right: 100px;
+  margin-top: 40px;   
+}

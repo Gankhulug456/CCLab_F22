@@ -1,0 +1,9 @@
+img{
+    width: 300px;
+}
+.imgandCaptionBox{
+    
+    border: black dotted 5px;
+    padding: 5px;
+    display: inline-block;
+}
