@@ -14,24 +14,48 @@ function setup() {
 }
 
 function draw() {
+  
   for (let y = 0; y < height; y += rectSize) {
     for (let x = 0; x < width; x += rectSize) {
       // noStroke()
       fill(0, 255, 132)
+      
       noStroke()
       rect(x, y, width, height);
     }
+    
+    
     stroke(1)
     line(0,220,880,220)
     line(0,440,880,440)
     line(880,220,880,440)
+    fill(0)
+    rect(0,220,880,220)
     ball.display();
     ball.update();
     
+    if(xPos<= 0){
+      xPos = 110;
+       yPos = 110; 
+    }
+    if(xPos>= 1100){
+      xPos = 110;
+       yPos = 110; 
+    }
+        if(yPos<= 0){
+      xPos = 110;
+       yPos = 110; 
+    }
+        if(yPos>= 660){
+      xPos = 110;
+       yPos = 110; 
+    }
     if(xPos<=880 & xPos>=0 & yPos>=220 & yPos<=440){
-       xPos = 0;
-       yPos = 0;
+       xPos = 110;
+       yPos = 110;
        }
+    
+ console.log(xPos,"xPos")
   }
   rect(15,460, 190,190)
 }
