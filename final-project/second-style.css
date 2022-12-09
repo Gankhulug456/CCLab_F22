@@ -1,14 +1,24 @@
 html, body {
+z-index: 0;
   background: rgb(2,0,36);
   background: linear-gradient(90deg, rgb(0, 255, 234) 0%, rgba(9,9,121,1) 35%, rgb(255, 0, 85) 100%);
     margin: 0;
     padding: 0;
   }
+  #canvasContainer{
+    z-index: -1;
+    margin-top: 9px;
+    margin-right: 9px;
+      }
   .canvas {
+    z-index: -1;
+   
     display: block;
   } 
-  
+
   h1{
+   
+    z-index: 2;
     font-size: 90px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -16,37 +26,53 @@ html, body {
   }
 
   p{
+ 
+    z-index: 2;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: transparent;
     text-align: center;
-    margin-top: 200px;
-
+    margin-top: 190px;
+    animation: color-change 0.5s infinite;
   }
+
+@keyframes color-change {
+  0% { color: red; }
+  50% { color: blue; }
+  100% { color: rgb(229, 255, 0); }
+}
   h3{
+  
+    z-index: 2;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     text-align: center;
-    margin-top: -37px;  
+    margin-top: -47px;  
   }
 
   h2{
+    
+    z-index: 2;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     margin-left: 350px;
     text-align: left;
-    margin-top: 180px;  
+    margin-top: 170px;  
   }
 
   h4  {
+
+    z-index: 2;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     margin-right: 350px; 
     text-align: right;
-    margin-top: -41px;  
+    margin-top: -51px;  
   }
+  
+ 
 
   
