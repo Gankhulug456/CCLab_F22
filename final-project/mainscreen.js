@@ -3,8 +3,6 @@ let particles = [];
 function setup() {
   let canvas = createCanvas(1349, 600);
   canvas.parent("canvasContainer");
-
-
 }
 
 function draw() {
@@ -18,7 +16,7 @@ function draw() {
     p.slowDown();
     p.display();
   }
-    if(particles.length >= 40){
+    if(particles.length >= 30){
     particles.splice(0, 1);
   }
 }
@@ -26,7 +24,6 @@ function draw() {
 
 class Particle {
   constructor(x, y) {
-
     this.x = x;
     this.y = y;
     this.xSpd = random(-1, 1);
