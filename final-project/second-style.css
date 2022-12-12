@@ -1,7 +1,7 @@
 html, body {
 z-index: 0;
   background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgb(0, 255, 234) 0%, rgba(9,9,121,1) 35%, rgb(255, 0, 85) 100%);
+  background: linear-gradient(90deg, rgb(6, 37, 35) 0%, rgba(9,9,121,1) 35%, rgb(71, 2, 25) 100%);
     margin: 0;
     padding: 0;
   }
@@ -13,12 +13,12 @@ z-index: 0;
   .canvas {
     z-index: -1;
    
-    display: block;
+    display: none;
   } 
 
   h1{
    
-    z-index: 2;
+ 
     font-size: 90px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -27,7 +27,7 @@ z-index: 0;
 
   p{
  
-    z-index: 2;
+   
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     color: transparent;
@@ -43,36 +43,58 @@ z-index: 0;
 }
   h3{
   
-    z-index: 2;
+    position: relative;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     text-align: center;
-    margin-top: -47px;  
+    
   }
 
   h2{
     
-    z-index: 2;
+    position: relative;
+    
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    margin-left: 350px;
-    text-align: left;
-    margin-top: 170px;  
+    text-align: center;
+  
   }
 
   h4  {
 
-    z-index: 2;
+    position: relative;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    margin-right: 350px; 
-    text-align: right;
-    margin-top: -51px;  
+    text-align: center;
+     
   }
   
- 
+  .Row {
 
+    display: table;
+    width: 95%; 
+    table-layout: fixed; 
+    border-spacing: 5px; 
+    align-items: center;
+}
+.Column {
+    display: table-cell;
+    background-color: red; 
+}
+div {
+  background: linear-gradient(90deg, rgb(6, 37, 35) 0%, rgba(9,9,121,1) 35%, rgb(71, 2, 25) 100%);
+  width: 140px;
+  height: 30px;
+  padding: 10px;
+  margin: 30px;
+  
+}
+img {
+  position: absolute;
+  margin-top: -210px;
+  margin-left: 620px;
+}
   
