@@ -65,6 +65,14 @@ function draw() {
   ellipse(100,530,150,30)
   fill(255, 0, 0)
   circle(100,430,30)
+  if(xPos<=100 & yPos>=500){
+    fill(255, 59, 3)
+rect(windowWidth/2-350, windowHeight/2-150, 600,200)
+fill(255)
+textSize(150);
+text('You Win', windowWidth/2-320, windowHeight/2);
+
+}
 }
 class User {
   constructor(startX, startY) {
